@@ -1,6 +1,6 @@
 @font-face {
     font-family: "merriweather";
-    src: url(../fonts/merri-sans/MerriweatherSans-Light.ttf);
+    src: url(./fonts/merri-sans/MerriweatherSans-Light.ttf);
 }
 
 .navbar {
