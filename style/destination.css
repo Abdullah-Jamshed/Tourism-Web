@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "merriweather";
+    src: url(../fonts/merri-sans/MerriweatherSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "merriweather-reg";
+    src: url(../fonts/merri-sans/MerriweatherSans-Regular.ttf);
+}
+
+/* html, body {
+    height: 100%;
+    background-color: gray;
+} */
+
+
+.navbar {
+    background-color: #15362a !important;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "merriweather" !important;
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    margin-right: 60px !important;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+
+
+.cont-des-1 {
+    background-color: whitesmoke;
+    /* margin-top: 70px; */
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.cont-head {
+    font-family: "merriweather-reg";
+    text-align: center;
+    padding: 10px;
+}
+
+.sub-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.rep-img {
+    width: 50%;
+}
+
+.rep-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.cont-content {
+    width: 50%;
+    text-align: justify;
+    padding: 25px;
+    border: 1px solid grey;
+    /* align-self: center; */
+    line-height: 2;
+}
+
+
+.footer {
+    /* position: fixed;
+    bottom: 0px; */
+    width: 100%;
+    background-color: #15362a;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    z-index: 999;
+}
+
+.footer p {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:992px){
+    .cont-content{
+        line-height: 1.5;
+        width: 100%;
+        border-radius: 0px 0px 5px 5px;
+        background-color: rgb(253, 253, 253);
+    }
+
+    .even{
+        flex-direction: column-reverse;
+    }
+
+    .sub-cont{
+        align-items: center;
+        /* justify-content: unset; */
+        padding: 5px 5px 5px 5px;
+        border-radius: 5px;
+    }
+    .rep-img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-height: 1140px) {
+    .footer {
+        position: fixed;
+        bottom: 0px;
+    }
+}

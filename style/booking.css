@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "merriweather";
+    src: url(../fonts/merri-sans/MerriweatherSans-Light.ttf);
+}
+
+
+.navbar {
+    background-color: #15362a !important;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "merriweather" !important;
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    margin-right: 60px !important;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+
+.plan {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.cont-1,.cont-2,.cont-3 {
+    margin-top: 50px;
+}
+
+.card {
+    margin: 5px;
+    height: auto;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 8px #c0c0c0;
+
+}
+
+.card-body{
+    border: 1px solid rgb(226, 226, 226);
+    border-radius:0px 0px 3px 3px;
+}
+
+.feat-card {
+    height: auto;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #15362a;
+}
+
+.btn-primary:hover{
+    background-color: #4ec599;
+    border: none;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: unset;
+    background-color: whitesmoke !important;
+    color: black !important;
+    line-height: 2 !important;
+    padding: 0px 80px 0px 0px !important;
+    justify-content: space-between;
+}
+
+.contact div{
+    padding: 40px 40px 40px 40px !important;
+}
+
+.iconsize {
+    /* color: #67d4a0; */
+    color: gray;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.icon-margin{
+    margin-right: 5px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #15362a;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    z-index: 999;
+    /* position: fixed;
+    bottom: 0px; */
+}
+
+.footer p{
+    margin-bottom: 0px;
+    text-align: center;
+}

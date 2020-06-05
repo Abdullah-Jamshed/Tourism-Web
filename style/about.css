@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "merriweather";
+    src: url(../fonts/merri-sans/MerriweatherSans-Light.ttf);
+}
+
+html, body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #15362a !important;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "merriweather" !important;
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    margin-right: 60px !important;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.about {
+    background-color: whitesmoke;
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.about-para{
+    text-align: justify;
+    line-height: 2.5;
+    width: 60%;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0px 20px 0px;
+    margin: 0px auto;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.about-card {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 5px;
+
+}
+
+@media only screen and (max-width:992px){
+    .about-cards{
+        align-items: center;
+        flex-direction: column;    
+    }
+    .about-card{
+        width: 80%;
+    }
+}
+
+.about-card i{
+    font-size: 120px;
+}
+
+/* .ri-bd {
+    border-right: 2px solid gray;
+    padding-right: 80px;
+} */
+
+
+.footer {
+    /* position: fixed;
+    bottom: 0px; */
+    width: 100%;
+    background-color: #15362a;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    z-index: 999;
+}
+
+.footer p {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media only screen and (min-height: 1140px) {
+    .footer {
+        position: fixed;
+        bottom: 0px;
+    }
+}
